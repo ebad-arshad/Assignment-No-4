@@ -256,3 +256,135 @@
 // )
 
 // document.write(result);
+
+
+// Chapter 12 - 13
+
+// Q1
+
+// var user = prompt("Enter a Character ( Number , UpperCase Letter , LowerCase Letter ) ");
+// var number = Number(user);
+// var upperCase = user[0].toUpperCase();
+// var lowerCase = user[0].toLowerCase();
+// if (isNaN(number)) {
+
+//     if (user[0] === upperCase) {
+//         alert(user + " is a Capitalized Letter")
+//     }
+//     else if (user[0] === lowerCase) {
+//         alert(user + " is a Lowerized Letter")
+//     }
+//     else {}
+
+// }
+// else if (!isNaN(number)) {
+//     alert("The given character is a Number");
+// }
+// else {
+//     alert("The given Character is neither a number or alphabet")
+// }
+
+// Q2
+
+// var num1 = +prompt("Enter first Integer to compare");
+// var num2 = +prompt("Enter second Integer to compare");
+// num1 = Math.round(num1);
+// num2 = Math.round(num2);
+// if (!isNaN(num1 && num2)) {
+//     if (num1 > num2) {
+//         alert(num1 + " is larger than " + num2)
+//     }
+//     else if (num1 < num2) {
+//         alert(num2 + " is larger than " + num1)
+//     }
+//     else if (num1 === num2) {
+//         alert(num2 + " and " + num1 + " are equal")
+//     }
+// }
+// else {
+//     alert("Please write any Integer")
+// }
+
+// Q3
+
+// var num = +prompt("Enter any Number (+1,-1,0)");
+// if (!isNaN(num)) {
+
+// if (num < 0) {
+//     alert("The number is Negative")
+// }
+// else if (num > 0) {
+//     alert("The number is Positive")
+// }
+// else if (num === 0) {
+//     alert("The number is Zero") 
+// }
+
+// }
+// else {
+//     alert("Please write a Number")
+// }
+
+// Q4
+
+// var string = prompt("Enter a single alphabet");
+// if (string === "a" || string === "e" || string === "i" || string === "o" || string === "u" || string === "A" || string === "E" || string === "I" || string === "O" || string === "U") {
+//     alert("The Alphabet is Vowel");
+// }
+// else {
+//     alert("The value is not a Vowel")
+// }
+
+// Q5
+
+// var correctPassword = "ebadarshad@14";
+// var user = prompt("Enter Password", "Please enter your password");
+// if (user === "") {
+//     alert("Please enter your password")
+// }
+// else if (user === correctPassword) {
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else {
+//     alert("Incorrect password")
+// }
+
+// Q6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+
+// Q7
+
+// var time = +prompt("Enter time in 24 hours format (i.e 1900)");
+
+// if (!isNaN(time)) {
+
+// if (time >= 0000 && time < 1200) {
+//     alert("Good Morning!")
+// }
+// else if (time >= 1200 && time < 1700) {
+//     alert("Good Afternoon!")
+// }
+// else if (time >= 1700 && time < 2100) {
+//     alert("Good Evening!")
+// }
+// else if (time >= 2100 && time <= 2359) {
+//     alert("Good Night!")
+// }
+// else {
+//     alert("Enter correct format of time")
+// }
+
+// }
+// else {
+//     alert("Enter a Number")
+// }
+
+
