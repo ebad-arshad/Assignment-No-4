@@ -388,3 +388,102 @@
 // }
 
 
+
+// Chapter 14 - 16
+
+// Q1
+
+// var literalArr = [];
+
+// Q2
+
+// var objectArr = new Array();
+
+// Q3
+
+// var stringArr = ["Karachi", "Lahore"];
+
+// Q4
+
+// var numberArr = [123, 321];
+
+// Q5
+
+// var booleanArr = [true, false];
+
+// Q6
+
+// var mixedArr = ["Islamabad", 123, true];
+
+// Q7
+
+// var qualArr = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"]
+// document.write("<h1> Qualifications; </h1>");
+// document.write("1) " + qualArr[0] + "<br />");
+// document.write("2) " + qualArr[1] + "<br />");
+// document.write("3) " + qualArr[2] + "<br />");
+// document.write("4) " + qualArr[3] + "<br />");
+// document.write("5) " + qualArr[4] + "<br />");
+// document.write("6) " + qualArr[5] + "<br />");
+// document.write("7) " + qualArr[6] + "<br />");
+// document.write("8) " + qualArr[7] + "<br />");
+
+// Q8
+
+// var user1 = prompt("Enter First Student Name");
+// var user2 = prompt("Enter Second Student Name");
+// var user3 = prompt("Enter Third Student Name");
+// var user1Marks = +prompt("Enter First Student Marks");
+// var user2Marks = +prompt("Enter Second Student Marks");
+// var user3Marks = +prompt("Enter Third Student Marks");
+// var tMarks = 500;
+// var studArr = [];
+// var studMarksArr = [];
+// var per1 = user1Marks * 100 / tMarks;
+// var per2 = user2Marks * 100 / tMarks;
+// var per3 = user3Marks * 100 / tMarks;
+// studArr.push(user1, user2, user3)
+// studMarksArr.push(user1Marks, user2Marks, user3Marks)
+
+// if(user1 && user2 && user3 && user1Marks && user2Marks && user3Marks) {
+//     document.write("Score of " + studArr[0] + " is " + studMarksArr[0] + ". " + "Percentage: " + per1 + "%" + "<br />");
+//     document.write("Score of " + studArr[1] + " is " + studMarksArr[1] + ". " + "Percentage: " + per2 + "%" + "<br />");
+//     document.write("Score of " + studArr[2] + " is " + studMarksArr[2] + ". " + "Percentage: " + per3 + "%" + "<br />");
+// } else {
+//     alert("Please fill Correct Information")
+// }
+
+// Q9
+
+// Q10
+
+// var score = [320,280,420,100];
+// document.write("Scores of Students : " + score);
+// document.write("<br>");
+// score.sort();
+// document.write("Ordered Scores of Students : " + score);
+
+// Q11
+
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// document.write("Cities list: <br>" + cities);
+// document.write("<br>");
+// document.write("<br>");
+// var selectedCities = cities.slice(2,4);
+// document.write("Selected cities list: <br>" + selectedCities);
+
+// Q12
+
+// var arr = ["This", "is", "my", "cat"];
+// document.write("Array:" + "<br>" + arr);
+// document.write("<br>");
+// document.write("<br>");
+// var joinedArr = arr.join(" ");
+// console.log(joinedArr)
+// document.write("String:" + "<br>" + joinedArr);
+
+// Q13
+
+
+
+
