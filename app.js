@@ -455,6 +455,59 @@
 
 // Q9
 
+// var arr = ["Red", "Green", "Yellow", "Blue", "Purple"];
+
+// part a 
+
+// document.write(arr);
+// document.write("<br>");
+
+// var userStartColor = prompt("What color you want to add to the beginning");
+// arr.unshift(userStartColor);
+// document.write(arr);
+// document.write("<br>");
+
+// part b
+
+// var userEndColor = prompt("What color you want to add to the end");
+// arr.push(userEndColor);
+// document.write(arr);
+// document.write("<br>");
+
+// part c
+
+// arr.unshift("Black", "Violet");
+// document.write(arr);
+// document.write("<br>");
+
+// part d
+
+// arr.shift();
+// document.write(arr);
+// document.write("<br>");
+
+// part e
+
+// arr.pop();
+// document.write(arr);
+// document.write("<br>");
+
+// part f
+
+// var addIndex = +prompt("At what index you want to add color");
+// var addColor = prompt("Give Color name");
+// arr.splice(addIndex, 0, addColor);
+// document.write(arr);
+// document.write("<br>");
+
+// part g
+
+// var delIndex = +prompt("At what index you want to remove color");
+// var delColor = +prompt("How many colors you wants to remove");
+// arr.splice(delIndex, delColor);
+// document.write(arr);
+// document.write("<br>");
+
 // Q10
 
 // var score = [320,280,420,100];
@@ -484,6 +537,67 @@
 
 // Q13
 
+// var arr = ["Iphone","Gaming PC","Laptop","Banglow"];
+// document.write("Dreams");
+// document.write("<br>");
+// document.write(arr);
+// arr.sort();
+// document.write("<br>");
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[0]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[1]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[2]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[3]);
 
+// Q14
 
+// var arr = ["Iphone","Gaming PC","Laptop","Banglow"];
+// document.write("Dreams");
+// document.write("<br>");
+// document.write(arr);
+// arr.reverse();
+// document.write("<br>");
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[0]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[1]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[2]);
+// document.write("<br>");
+// document.write("Out: ");
+// document.write("<br>");
+// document.write(arr[3]);
 
+// Q15
+
+// var arr = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// document.write(`
+
+// <select>
+// <option>${arr[0]}</option>
+// <option>${arr[1]}</option>
+// <option>${arr[2]}</option>
+// <option>${arr[3]}</option>
+// <option>${arr[4]}</option>
+// <option>${arr[5]}</option>
+// </select>
+
+// `)
